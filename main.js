@@ -5,9 +5,10 @@ let items = [
     {id: 4, name: 'sachet', tel:'1234'},
 ]
 
+
 const main= () =>{
     let listElement = document.createElement('li');
-    listElement.innerHTML = '';
+    listElement.innerHTML = '<span>diagamber 1234</span>';
     
     
     
