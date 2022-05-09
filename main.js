@@ -8,7 +8,9 @@ let items = [
 
 const main= () =>{
     let listElement = document.createElement('li');
-    listElement.innerHTML = '<span>diagamber 1234</span>';
+    listElement.innerHTML =items.forEach(element => {
+        
+    });
     
     
     
